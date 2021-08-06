@@ -2,7 +2,7 @@
 // const fetch = require('fetch')
 
 const button = document.getElementById('#btn')
-const audio = new Audio("sound.mp3")
+const audio = new Audio("audio/sound.mp3")
 
 async function insertData(){
     audio.play()
