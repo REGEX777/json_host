@@ -6,5 +6,5 @@ const audio = new Audio("audio/sound.mp3")
 
 async function insertData(){
     audio.play()
-    document.getElementById('p').innerHTML = "cilck<a href="#">here</a>" ;
+    document.getElementById('p').innerHTML = "umm hehehe uhhhh mmmm i.... just wanna ask that can i play on ur ipad?" ;
 }
