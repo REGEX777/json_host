@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #E8F0F2;
+}
+button{
+    height: 40px;
+    width: 90px;
+    /* border: 12px black; */
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    background-color: #FFD523;
+    transition: all 0.4s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #E8F0F2;
+    border: 1px solid #FFD523;
+}
+.nav p{
+    float: left;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    transform: rotate(90deg);
+    /* font-weight: 700; */
+    /* font-size: 20px; */
+}
+.brand{
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.brand:hover{
+    cursor: pointer;
+}
+.nav{
+    height: 100px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #FFD523;
+}
+.header{
+    height: 70vh;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-align: center;
+}
+.footer{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-align: center;
+    background-color: #FFD523;
+    height: 34px;
+}
+.footer p{
+    padding-top: 20px;
+}
