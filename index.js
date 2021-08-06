@@ -6,5 +6,5 @@ const audio = new Audio("audio/sound.mp3")
 
 function insertData(){
     audio.play()
-    document.getElementById('p').innerHTML = "i just wanna play games on ur ipad if its ok?";
+    document.getElementById('p').innerHTML = "अमेरिका में क्या आपके टूथपेस्ट में नमक था?";
 }
